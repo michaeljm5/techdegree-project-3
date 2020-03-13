@@ -1,0 +1,24 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: gray;
+}
+
+h2 {
+    color: black;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-bottom: 3px double black;
+}
+
+.title {
+    background-color: darkslategrey;
+    color: white;
+    line-height: 4.5rem;
+    margin: -.5rem
+}
