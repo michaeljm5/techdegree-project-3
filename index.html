@@ -7,12 +7,83 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-      <div> 
+      <div class="wrapper"> 
         <section class="intro">
             <h1 class="title">The Code Review</h1>
             <h2>Signup for our newsletter</h2>
             <p>Get the latest news on how your code is doing right in your inbox</p>
         </section>
+
+        <form>
+            <fieldset>
+                <legend><h2>Contact Information</h2></legend>
+                <label for="name">Full Name</label>
+                <input class="textbox" type="text" id="name" name="user_name">
+                <label for="email">Email Address</label>
+                <input class="textbox" type="email" id="email" name="user_email">
+                <label for="phone">Phone Number</label>
+                <input class="textbox" type="tel" id="phone" name="user_phone_number">
+                <label for="address">Street Address</label>
+                <input class="textbox" type="text" id="address" name="user_address">
+                <label for="city">City</label>
+                <input class="textbox" type="text" id="city" name="user_city">
+                <label for="state">State</label>
+                <select class="textbox" id="state" name="user_state">
+                    <option value="ak">ak</option>
+                    <option value="al">al</option>
+                    <option value="ar">ar</option>
+                    <option value="az">az</option>
+                    <option value="ca">ca</option>
+                    <option value="co">co</option>
+                    <option value="ct">ct</option>
+                    <option value="de">de</option>
+                    <option value="fl">fl</option>
+                    <option value="ga">ga</option>
+                    <option value="hi">hi</option>
+                    <option value="ia">ia</option>
+                    <option value="id">id</option>
+                    <option value="il">il</option>
+                    <option value="in">in</option>
+                    <option value="ks">ks</option>
+                    <option value="ky">ky</option>
+                    <option value="la">la</option>
+                    <option value="ma">ma</option>
+                    <option value="md">md</option>
+                    <option value="me">me</option>
+                    <option value="mi">mi</option>
+                    <option value="mn">mn</option>
+                    <option value="mo">mo</option>
+                    <option value="ms">ms</option>
+                    <option value="mt">mt</option>
+                    <option value="nc">nc</option>
+                    <option value="nd">nd</option>
+                    <option value="ne">ne</option>
+                    <option value="nh">nh</option>
+                    <option value="nj">nj</option>
+                    <option value="nm">nm</option>
+                    <option value="nv">nv</option>
+                    <option value="ny">ny</option>
+                    <option value="oh">oh</option>
+                    <option value="ok">ok</option>
+                    <option value="or">or</option>
+                    <option value="pa">pa</option>
+                    <option value="ri">ri</option>
+                    <option value="sc">sc</option>
+                    <option value="sd">sd</option>
+                    <option value="tn">tn</option>
+                    <option value="tx">tx</option>
+                    <option value="ut">ut</option>
+                    <option value="va">va</option>
+                    <option value="vt">vt</option>
+                    <option value="wa">wa</option>
+                    <option value="wi">wi</option>
+                    <option value="wv">wv</option>
+                    <option value="wy">wy</option>
+                </select>
+                <label for="zip">Zip Code</label>
+                <input class="textbox" type="number" id="zip" name="user_zip_code">
+            </fieldset>
+        </form>
       </div> 
     </body>
 </html>

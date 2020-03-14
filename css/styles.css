@@ -5,8 +5,28 @@ body {
 
 h2 {
     color: black;
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     margin-bottom: 0rem;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+legend {
+    margin-bottom: 1rem;
+}
+
+option,
+select {
+    text-transform: uppercase;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
 .intro {
@@ -21,4 +41,17 @@ h2 {
     color: white;
     line-height: 4.5rem;
     margin: -.5rem
+}
+
+.textbox {
+ width: 100%;
+ height: 2.5rem;
+ background-color: lightgray;
+ border-radius: 0.3rem;
+ border-style: none;
+ font-size: 1.2rem;
+}
+
+input[id="zip"] {
+    width: 30%;
 }
